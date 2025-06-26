@@ -11,7 +11,7 @@ Description of the program:
 5.  matrix_T.m is a function to calculate matrix of transition at the interfaces between 2 adjacent medium
 
 Update:
-1. Bragg_mirror.m : Example script to calculate Bragg mirror reflection using the stack_RT.m program.
+1. Example_1_Bragg_mirror.m : Example script to calculate Bragg mirror reflection using the stack_RT.m program.
    Additional note: The example of structure given in this script is an A-B-A-B multi-layer stack, with SiN and SiO2 as the for each layers surrounded by air cladding.
                     To run this particular example, the functions SiNSellmeier.m and SiO2Sellmeier.m are needed to calculate the refractive indices for SiN and SiO2 respectively at any arbitrary wavelength.
                     The SiNSellmeier.m and SiO2Sellmeier.m are valid for at least 0.5-2 micron wavelength regime.
