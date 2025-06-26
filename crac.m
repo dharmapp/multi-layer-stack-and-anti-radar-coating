@@ -1,3 +1,6 @@
+%This function calculate the roots of complex numbers
+%input  : any complex numbers
+%output : the primary roots
 function [racine] = crac(z)
 r = sqrt(abs(z));
 theta = angle(z);
