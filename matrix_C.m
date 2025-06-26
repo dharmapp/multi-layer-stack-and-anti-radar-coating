@@ -1,7 +1,7 @@
 %This function calculate the matrix that describes propagation inside a medium
 %Input  : 
-%   betaj       = propagation constant in medium j-th
-%   thickness   = thickness of medium j-th 
+%   betaj       = propagation constant in medium j
+%   thickness   = thickness of medium j
 %   all the inputs are in the SI units
 
 %Output :
