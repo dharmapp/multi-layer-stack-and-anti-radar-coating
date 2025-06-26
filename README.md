@@ -1,6 +1,8 @@
 # transfer-matrix_multi-layer-stack
 MATLAB codes of simulation based on transfer matrix to calculate Fresnel coefficients of transmission and reflections in multi layer stack.
 
+for questions: dhp.permana@gmail.com
+
 Description of the program:
 1.  The stack_RT.m is the main function that is used to simulate the Fresnel coefficients for transmission and reflections in multi-layer stack.
     This program takes polarization, wavelength, angle of incidence, layer thicknesses, and refractive indices for the input, and give Fresnel coefficients r,t,R, and T as outputs.
