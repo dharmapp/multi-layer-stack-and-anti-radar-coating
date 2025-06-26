@@ -1,3 +1,13 @@
+%This function calculate the matrix that describes propagation inside a medium
+%Input  : 
+%   betaj       = propagation constant in medium j-th
+%   thickness   = thickness of medium j-th 
+%   all the inputs are in the SI units
+
+%Output :
+%   A 2x2 matrix with elements that describes a propagation of E fields
+%   inside a medium
+
 function [matC] = matrix_C(betaj,thickness);
 C11 = exp(-i.*betaj.*thickness);
 C12 = 0;
